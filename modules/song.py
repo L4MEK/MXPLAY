@@ -11,7 +11,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 ABS="Meu código fonte 🥀"
 APPER="shamilhabeeb"
-OWNER="Owner"
+OWNER="Dono"
 GITCLONE="t.me/L4MEK"
 B2="https://github.com/L4MEK/MusixPlay"
 BUTTON1="Reporte Erros 🎭"
@@ -43,8 +43,8 @@ def a(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('`Buscando... Aguarde...`')
-    ydl_opts = {"format": "bestaudio[ext=mp3]"}
+    m = message.reply('`Buscando, Aguarde...`')
+    ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = []
         count = 0
