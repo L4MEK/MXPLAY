@@ -20,7 +20,7 @@ def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
-@Client.on_message(filters.command('start') & filters.private)
+@Client.on_message(filters.command('iniciar') & filters.private)
 async def start(client, message):
     await message.reply_photo(photo=Config.START_IMG, caption=Config.START_MSG.format(message.from_user.mention),
          reply_markup=InlineKeyboardMarkup(
@@ -37,7 +37,7 @@ async def start(client, message):
     )
 
 
-@Client.on_message(filters.command(['song']))
+@Client.on_message(filters.command(['m']))
 def a(client, message):
     query = ''
     for i in message.command[1:]:
@@ -78,7 +78,7 @@ def a(client, message):
             return
     except Exception as e:
         m.edit(
-            "**Use /song  link!**"
+            "**Use /m  link!**"
         )
         print(str(e))
         return
