@@ -9,12 +9,12 @@ import time
 from config import Config
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-ABS="Developer"
+ABS="Meu código fonte 🥀"
 APPER="shamilhabeeb"
 OWNER="Owner"
-GITCLONE="github.com/shamilhabeebnelli/song-bot"
-B2="telegram.dog/shamilhabeeb"
-BUTTON1="📜 Source Code 📜"
+GITCLONE="t.me/L4MEK"
+B2="https://github.com/L4MEK/MusixPlay"
+BUTTON1="Reporte Erros 🎭"
 
 def time_to_seconds(time):
     stringt = str(time)
@@ -43,8 +43,8 @@ def a(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('`Searching... Please Wait...`')
-    ydl_opts = {"format": "bestaudio[ext=m4a]"}
+    m = message.reply('`Buscando... Aguarde...`')
+    ydl_opts = {"format": "bestaudio[ext=mp3]"}
     try:
         results = []
         count = 0
@@ -74,21 +74,21 @@ def a(client, message):
 
         except Exception as e:
             print(e)
-            m.edit('**👎 Nothing found Retry with another !**')
+            m.edit('**Não encontrei...** 😪')
             return
     except Exception as e:
         m.edit(
-            "**Enter Song Name with /song Command!**"
+            "**Use /song  link!**"
         )
         print(str(e))
         return
-    m.edit("`Bruh... Uploading... Please Wait...`")
+    m.edit("`Baixando, aguarde...`")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'🎶 <b>Title:</b> <a href="{link}">{title}</a>\n⌚ <b>Duration:</b> <code>{duration}</code>\n📻 <b>Uploaded By:</b> <a href="https://t.me/mwklinks">MwK Song Bot</a>'
+        rep = f'🎶 <b>Título:</b> <a href="{link}">{title}</a>\n⌚ <b>Duração:</b> <code>{duration}</code>\n🔥 <b>Criado por:</b> <a href="https://t.me/L4MEK">RyaN</a>'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -96,7 +96,7 @@ def a(client, message):
         message.reply_audio(audio_file, caption=rep, parse_mode='HTML',quote=False, title=title, duration=dur, performer=performer, thumb=thumb_name)
         m.delete()
     except Exception as e:
-        m.edit('**An internal Error Occured, Report This @redbullfed!!**')
+        m.edit('**Ocorreu um erro, reporte isso para @L4MEK!**')
         print(e)
     try:
         os.remove(audio_file)
