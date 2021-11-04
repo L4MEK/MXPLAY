@@ -15,4 +15,4 @@ A bot to download your YouTube songs on Telegram
 ## About:
 ##### Language used: Python
 ##### Programmer: RyaN (t.me/L4MEK)
-##### Bot: t.me/PlayMxbot
+##### Bot: t.me/PlayMxBot
