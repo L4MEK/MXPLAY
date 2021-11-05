@@ -1,7 +1,7 @@
 {
-    "name": "Song-Bot",
-    "description": "A Modular telegram song bot.",
-    "repository": "https://github.com/shamilhabeebnelli/Song-Bot",
+    "name": "MusixPlay",
+    "description": "💘 Oi! Sou o 'MusixPlay', e estou aqui para baixar suas músicas do YouTube",
+    "repository": "https://github.com/L4MEK/MusixPlay",
     "keywords": [
        
         "telegram bot",
@@ -10,27 +10,28 @@
     ],
     "env": {
         "APP_ID": {
-            "description": "Get this value from my.telegram.org",
+            "description": "Encontre em my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org",
+            "description": "Encontre em my.telegram.org",
             "value": ""
         },
         "OWNER": {
-            "description": "Your username without @.",
-            "value": "shamilhabeeb"
+            "description": "Seu nome de usuário sem @.",
+            "value": "L4MEK"
         },
         "START_MSG": {
-            "description": "Start Message of BoT",
-            "value": "<b>Hi {},\nIam A Simple Youtube to Mp3 Downloader Bot,</b>\n\nSend me Any Songs name with /song command"
+            "description": "Primeira mensagem do bot",
+ 
+ ​            ​"value"​: ​"​<b>Oi! {},​\n​Sou um robô capaz de baixar suas músicas do Youtube,</b>​\n\n​use /m + Link do Youtube"
         },
         "START_IMG": {
-            "description": "Start Message's Photo.",
-            "value": "https://telegra.ph/file/2a35fca576aa49de77c98.jpg"
+            "description": "Foto Inicial.",
+            "value": "https://telegra.ph/file/8eb15b72ae4c4e17a4a76.jpg"
         },
         "BOT_TOKEN": {
-            "description": "ID of the message to edit.",
+            "description": "Encontre em @BotFather.",
             "value": ""
         }
     },
