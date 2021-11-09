@@ -1,18 +1,17 @@
-### MusixPlay - t.me/PlayMxBot
-```
-A bot to download your YouTube songs on Telegram
-```
-
-## Commands: 
-##### Send /start (Turn on the bot)
-##### /m + YouTube url (Find the song and send it)
-##### /m Artist - Music (Find the song and send it - errors may occur)
-##### To add more commands use "Manybot" on Telegram
-
-## Click below to deploy and configure
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=github.com/L4MEK/MusixPlay)
-
-## About:
-##### Language used: Python
-##### Programmer: RyaN (t.me/L4MEK)
-##### Bot: t.me/PlayMxBot
+ 
+ ​###​ ​song-bot 
+ ​``` 
+ ​You can download youtube to MP3 from telegram bot #musics 
+ ​with & without commands 
+ ​``` 
+  
+ ​##​ ​Deploy - Simplest Way 
+ ​#####​ ​Deploy - with /song command 
+  
+ ​[![​Deploy​](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/L4MEK/MusixPlay) 
+  
+ ​#####​ ​Deploy - Without Command 
+ ​[![​Deploy​](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shamilhabeebnelli/song-bot/tree/Without-CMD) 
+  
+ ​##​ ​Deploy Hard Way 
+ ​No Any Hard Ways Deploy simple way 🤗🤣
