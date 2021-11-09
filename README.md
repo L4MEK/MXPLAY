@@ -10,7 +10,7 @@ A bot to download your YouTube songs on Telegram
 ##### To add more commands use "Manybot" on Telegram
 
 ## Click below to deploy and configure
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/L4MEK/MusixPlay)
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=github.com/L4MEK/MusixPlay)
 
 ## About:
 ##### Language used: Python
