@@ -1,46 +1,46 @@
-{
-    "name": "MusixPlay",
-    "description": "Baixe músicas do YouTube usando o Telegram.",
-    "repository": "https://github.com/shamilhabeebnelli/Song-Bot",
-    "keywords": [
-       
-        "telegram bot",
-        "pyrogram"
-
-    ],
-    "env": {
-        "APP_ID": {
-            "description": "Consiga em my.telegram.org",
-            "value": ""
-        },
-        "API_HASH": {
-            "description": "Consiga em my.telegram.org",
-            "value": ""
-        },
-        "OWNER": {
-            "description": "Nome de usuário sem @.",
-            "value": "l4mek"
-        },
-        "START_MSG": {
-            "description": "Mensagem inicial do bot",
-            "value": "<b>🎭 Oi! {},
-Sou um robô capaz de baixar suas músicas do YouTube\n <b>Use /m + Link do YouTube</b>"
-        },
-        "START_IMG": {
-            "description": "Foto inicial",
-            "value": "https://telegra.ph/file/c13c3f86deb03fa376041.jpg"
-        },
-        "BOT_TOKEN": {
-            "description": "Consiga em @botfather.",
-            "value": ""
-        }
-    },
-    "buildpacks": [
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "heroku/python"
-        }
-    ]
-}
+ 
+ ​{ 
+ ​    ​"name"​: ​"​Song-Bot​"​, 
+ ​    ​"description"​: ​"​A Modular telegram song bot.​"​, 
+ ​    ​"repository"​: ​"​https://github.com/shamilhabeebnelli/Song-Bot​"​, 
+ ​    ​"keywords"​: [ 
+ ​        
+ ​        ​"​telegram bot​"​, 
+ ​        ​"​pyrogram​" 
+  
+ ​    ], 
+ ​    ​"env"​: { 
+ ​        ​"APP_ID"​: { 
+ ​            ​"description"​: ​"​Get this value from my.telegram.org​"​, 
+ ​            ​"value"​: ​"​" 
+ ​        }, 
+ ​        ​"API_HASH"​: { 
+ ​            ​"description"​: ​"​Get this value from my.telegram.org​"​, 
+ ​            ​"value"​: ​"​" 
+ ​        }, 
+ ​        ​"OWNER"​: { 
+ ​            ​"description"​: ​"​Your username without @.​"​, 
+ ​            ​"value"​: ​"​shamilhabeeb​" 
+ ​        }, 
+ ​        ​"START_MSG"​: { 
+ ​            ​"description"​: ​"​Start Message of BoT​"​, 
+ ​            ​"value"​: ​"​<b>Hi {},​\n​Iam A Simple Youtube to Mp3 Downloader Bot,</b>​\n\n​Send me Any Songs name with /song command​" 
+ ​        }, 
+ ​        ​"START_IMG"​: { 
+ ​            ​"description"​: ​"​Start Message's Photo.​"​, 
+ ​            ​"value"​: ​"​https://telegra.ph/file/2a35fca576aa49de77c98.jpg​" 
+ ​        }, 
+ ​        ​"BOT_TOKEN"​: { 
+ ​            ​"description"​: ​"​ID of the message to edit.​"​, 
+ ​            ​"value"​: ​"​" 
+ ​        } 
+ ​    }, 
+ ​    ​"buildpacks"​: [ 
+ ​    { 
+ ​      ​"url"​: ​"​https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest​" 
+ ​    }, 
+ ​    { 
+ ​      ​"url"​: ​"​heroku/python​" 
+ ​        } 
+ ​    ] 
+ ​}
