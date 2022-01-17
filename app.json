@@ -24,9 +24,7 @@
         "START_MSG": {
             "description": "Mensagem inicial do bot",
             "value": "<b>🎭 Oi! {},
-Sou um robô capaz de baixar suas músicas do YouTube
-
-<b>Use /m + Link do YouTube</b>"
+Sou um robô capaz de baixar suas músicas do YouTube\n <b>Use /m + Link do YouTube</b>"
         },
         "START_IMG": {
             "description": "Foto inicial",
